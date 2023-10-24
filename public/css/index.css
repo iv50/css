@@ -1,7 +1,23 @@
-html {
-  max-width: 720px;
+.card {
+  color: red;
 }
 
-body {
-  background: #fff;
+.card > p {
+  color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
+}
+
+p:focus, p:active, p:hover {
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
+
+  direction: rtl;
+}
+
+#test {
+  color: initial;
+  -webkit-text-fill-color: initial;
+  -webkit-text-stroke: initial;
+
 }
