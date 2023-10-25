@@ -21,3 +21,19 @@ p:focus, p:active, p:hover {
   -webkit-text-stroke: initial;
 
 }
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 26px;
+}
+
+span {
+  font-size: xx-large;
+
+  font-weight: lighter;
+}
